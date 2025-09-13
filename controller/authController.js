@@ -19,6 +19,7 @@ export const register=async(req,res)=>{
 await user.save();
 
         return res.status(200).json({user});
+        console.log("user registered");
 
     
         
