@@ -28,3 +28,4 @@ await user.save();
         return res.status(404).json({message:'error server '});
     }
 }
+console.log("auth controller loaded");  
